@@ -1,0 +1,16 @@
+apply plugin: 'application'
+
+mainClassName = "ist.meic.pa.GenericFunctions.WithGenericFunctions.WithGenericFunctions"
+
+repositories {
+   flatDir {
+       dirs 'lib'
+   }
+}
+
+dependencies {
+   compile name: 'javassist'
+}
+run{
+	args = ["ist.meic.pa.tests.TestN"]
+}
