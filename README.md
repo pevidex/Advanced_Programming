@@ -1,4 +1,4 @@
-# Advanced_Programming
+# Advanced Programming Project
 
 ## Description
 
